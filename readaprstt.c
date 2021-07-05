@@ -216,18 +216,18 @@ int main (int argc, char *argv[])
  *
  *  http://www.tapr.org/pipermail/aprssig/2015-January/044069.html
  */;
-	char english1[] = "Object ";	
-	char call[];
+	char english1[100] = "Object ";	
+	//char call[];
 	char english2[] = " with status ";
-	char status[];
+	//char status[];
 	char english3[] = "  at latitude ";
-	char lat[];
+	//char lat[];
 	char english4[]; = " and longitude ";
-	char lon[];
-	char * secure_getenv ("TTCALL");
-	char * secure_getenv ("TTSTATUS");
-	char * secure_getenv ("TTLAT");
-	char * secure_getenv ("TTLON");
+	//char lon[];
+	char * call;
+	char * status;
+	char * lat;
+	char * lon;
 	call =  secure_getenv ("TTCALL");
 	status = secure_getenv ("TTSTATUS");
 	lat = secure_getenv ("TTLAT");
