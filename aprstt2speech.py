@@ -28,43 +28,43 @@ lon = os.getenv('TTLON')
 
 #now do a very long 'if' statement to convert LAT back to milemarker. Assuming no points share LAT with different LON
 
-if str(lat) = "41.354574":
+if str(lat) == "41.354574":
 	milemarker = "BIKE 0"
-else if str(lat) = "41.344790":
+elif str(lat) == "41.344790":
 	milemarker = "BIKE 1"
-else if str(lat) = "41.338618 ":
+elif str(lat) == "41.338618 ":
 	milemarker = "BIKE 2"
-else if str(lat) = "41.327663":
+elif str(lat) == "41.327663":
 	milemarker = "BIKE 3"
-else if str(lat) = "41.330708":
+elif str(lat) == "41.330708":
 	milemarker = "BIKE 4"
-else if str(lat) = "41.322645":
+elif str(lat) == "41.322645":
 	milemarker = "BIKE BRIDGE"
-else if str(lat) = "41.342440":
+elif str(lat) == "41.342440":
 	milemarker = "BIKE 5"
-else if str(lat) = "41.343837":
+elif str(lat) == "41.343837":
 	milemarker = "BIKE 6"
-else if str(lat) = "41.359446":
+elif str(lat) == "41.359446":
 	milemarker = "BIKE 7"
-else if str(lat) = "41.371021":
+elif str(lat) == "41.371021":
 	milemarker = "BIKE 8"
-else if str(lat) = "41.376499":
+elif str(lat) == "41.376499":
 	milemarker = "BIKE 9"
-else if str(lat) = "41.386270":
+elif str(lat) == "41.386270":
 	milemarker = "BIKE TEN OVERPASS"
-else if str(lat) = "41.377957":
+elif str(lat) == "41.377957":
 	milemarker = "BIKE ELEVEN"
-else if str(lat) = "41.377957":
+elif str(lat) == "41.377957":
 	milemarker = "BIKE TWELVE"
-else if str(lat) = "41.359446":
+elif str(lat) == "41.359446":
 	milemarker = "BIKE THIRTEEN"
-else if str(lat) = "41.35457":
+elif str(lat) == "41.35457":
 	milemarker = "RUN 0"
-else if str(lat) = "41.348595":
+elif str(lat) == "41.348595":
 	milemarker = "RUN 1"
-else if str(lat) = "41.354003":
+elif str(lat) == "41.354003":
 	milemarker = "RUN 2"
-else if str(lat) = "41.355332":
+elif str(lat) == "41.355332":
 	milemarker = "RUN 3"
 else:
 	milemarker = "Invalid Milemarker"
