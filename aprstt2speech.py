@@ -56,9 +56,9 @@ elif str(lat) == "41.377957":
 	milemarker = "BIKE ELEVEN"
 elif str(lat) == "41.377957":
 	milemarker = "BIKE TWELVE"
-elif str(lat) == "41.359446":
+elif str(lat) == "41.3594462":
 	milemarker = "BIKE THIRTEEN"
-elif str(lat) == "41.35457":
+elif str(lat) == "41.354574":
 	milemarker = "RUN 0"
 elif str(lat) == "41.348595":
 	milemarker = "RUN 1"
@@ -66,6 +66,8 @@ elif str(lat) == "41.354003":
 	milemarker = "RUN 2"
 elif str(lat) == "41.355332":
 	milemarker = "RUN 3"
+elif str(lat) == "41.355388":
+	milemarker = "TEST"
 else:
 	milemarker = "Invalid Milemarker"
 
