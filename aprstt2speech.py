@@ -68,6 +68,14 @@ elif str(lat) == "41.355332":
 	milemarker = "RUN 3"
 elif str(lat) == "41.355388":
 	milemarker = "TEST"
+elif str(lat) == "41.354677":
+	milemarker = "YOUTH 0"
+elif str(lat) == "41.349441":
+	milemarker = "YOUTH 1"
+elif str(lat) == "41.354732":
+	milemarker = "YOUTH 2"
+elif str(lat) == "41.354933":
+	milemarker = "YOUTH 3"
 else:
 	milemarker = "Invalid Milemarker"
 
